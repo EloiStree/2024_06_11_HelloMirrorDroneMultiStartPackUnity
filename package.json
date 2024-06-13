@@ -1,0 +1,23 @@
+
+{                                                                                
+  "name": "be.eloistree.mirrordronesoccerstartpack",                              
+  "displayName": "Hello Mirror Drone Soccer Start Pack",                        
+  "version": "0.0.1",                         
+  "unity": "2018.1",                             
+  "unityRelease": "",                             
+  "description": "Starting pack to play on Drone Soccer client from Unity3D. See other language if it better fit your need on Github",                         
+  "keywords": ["Script","Tool"],                       
+  "dependencies":{},     
+  "relatedPackages":{},     
+  "samples" : [],     
+  "author" : {
+"name":"",
+"mail":"",
+"url":""},     
+  "repository":{
+"type":"Git",
+"url":"https://github.com/EloiStree/2024_06_11_HelloMirrorDroneMultiStartPackUnity",
+"footprint":"",
+"revision":""},     
+  "category": "Script"                   
+} 

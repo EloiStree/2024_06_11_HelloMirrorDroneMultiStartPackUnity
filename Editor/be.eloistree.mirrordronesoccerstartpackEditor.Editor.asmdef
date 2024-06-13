@@ -1,0 +1,16 @@
+
+{                                                                   
+            "name": "be.eloistree.mirrordronesoccerstartpackEditor",          
+    "references": ["be.eloistree.mirrordronesoccerstartpack"
+],                                                              
+    "optionalUnityReferences": [],                                  
+    "includePlatforms": [                                           
+        "Editor"                                                    
+    ],                                                              
+    "excludePlatforms": [],                                         
+    "allowUnsafeCode": false,                                       
+    "overrideReferences": false,                                    
+    "precompiledReferences": [],                                    
+    "autoReferenced": true,                                         
+    "defineConstraints": []                                         
+}                                                                   
