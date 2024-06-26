@@ -741,6 +741,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 1375050861}
   - {fileID: 1730931695}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -782,6 +783,90 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 6433896052210655135}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1375050860
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1375050861}
+  - component: {fileID: 1375050862}
+  m_Layer: 0
+  m_Name: Event Relay
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1375050861
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1375050860}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1155676647}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1375050862
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1375050860}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: baf0edbf9855a454eb11d35c63b04412, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_events:
+    m_onServerFrameTime:
+      m_PersistentCalls:
+        m_Calls: []
+    m_onTimeValue:
+      m_PersistentCalls:
+        m_Calls: []
+    m_onBallPosition:
+      m_PersistentCalls:
+        m_Calls: []
+    m_onBallGoals:
+      m_PersistentCalls:
+        m_Calls: []
+    m_onDronePositions:
+      m_PersistentCalls:
+        m_Calls: []
+    m_onMatchState:
+      m_PersistentCalls:
+        m_Calls: []
+    m_onMatchStaticInfo:
+      m_PersistentCalls:
+        m_Calls: []
+    m_onIndexIntegerClaim:
+      m_PersistentCalls:
+        m_Calls: []
+    m_onRsa1024Claim:
+      m_PersistentCalls:
+        m_Calls: []
+    m_onProjectileCreation:
+      m_PersistentCalls:
+        m_Calls: []
+    m_onDestructionEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    m_onDoubleGuidItemSpawn:
+      m_PersistentCalls:
+        m_Calls: []
+    m_onDoubleGuidItemDestruction:
+      m_PersistentCalls:
+        m_Calls: []
 --- !u!114 &1550994460 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 7772417040771166859, guid: 0dea024220ba51145850ad3bf14693c2,
