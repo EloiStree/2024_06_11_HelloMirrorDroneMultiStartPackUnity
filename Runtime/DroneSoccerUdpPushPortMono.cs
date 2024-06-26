@@ -6,6 +6,7 @@ using UnityEngine;
 
 public class DroneSoccerUdpPushPortMono : MonoBehaviour
 {
+    public string m_udpTargetIp = "127.0.0.1";
     public int m_udpPort = 2560;
 
     public UdpClient m_socker;
@@ -52,4 +53,5 @@ public class DroneSoccerUdpPushPortMono : MonoBehaviour
         if (m_socker != null)
             m_socker.Close();
     }
+
 }

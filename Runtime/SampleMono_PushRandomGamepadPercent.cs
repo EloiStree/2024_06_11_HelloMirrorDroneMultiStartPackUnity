@@ -6,23 +6,28 @@ using UnityEngine.Events;
 public class SampleMono_PushRandomGamepadPercent : MonoBehaviour
 {
 
-    public PushDroneSoccderIntAsBytesMono m_target;
-
     public int m_droneId20To20=-1;
     public float m_timeBetweenPushed = 0.1f;
+
+
+    public UnityEvent<int> m_setDroneId;
+    public UnityEvent<float> m_setLeftRightRotationPercent;
+    public UnityEvent<float> m_setDownUpPercent;
+    public UnityEvent<float> m_setLeftRightMovePercent;
+    public UnityEvent<float> m_setBackwardForwardPercent;
+    public UnityEvent m_onFinishSettingGamepad;
 
     public IEnumerator Start() { 
 
         while(true) {
 
-            if(m_target != null) {
-                m_target.SetDroneId20To20(m_droneId20To20);
-                m_target.SetLeftRightRotationPercent(Random.Range(-1f, 1f));
-                m_target.SetDownUpPercent(Random.Range(-1f, 1f));
-                m_target.SetLeftRightMovePercent(Random.Range(-1f, 1f));
-                m_target.SetForwardBackwardPercent(Random.Range(-1f, 1f));
-                m_target.PushAsBytes();
-            }
+                m_setDroneId.Invoke(m_droneId20To20);
+                m_setLeftRightRotationPercent.Invoke(Random.Range(-1f, 1f));
+                m_setDownUpPercent.Invoke(Random.Range(-1f, 1f));
+                m_setLeftRightMovePercent.Invoke(Random.Range(-1f, 1f));
+                m_setBackwardForwardPercent.Invoke(Random.Range(-1f, 1f));
+                m_onFinishSettingGamepad.Invoke();
+            
             yield return new WaitForSeconds(m_timeBetweenPushed);
             yield return new WaitForEndOfFrame();
 

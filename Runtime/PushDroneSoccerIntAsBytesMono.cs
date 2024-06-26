@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
-public class PushDroneSoccderIntAsBytesMono : MonoBehaviour
+public class PushDroneSoccerIntAsBytesMono : MonoBehaviour
 {
 
     public int m_lastIntegerPushed;
@@ -15,7 +15,7 @@ public class PushDroneSoccderIntAsBytesMono : MonoBehaviour
 
     public void SetLeftRightRotationPercent(float percent)
     {
-        m_gamepad.m_joystickLeftX_rotatreLeftRight = percent;
+        m_gamepad.m_joystickLeftX_rotateLeftRight = percent;
     }
     public void SetDownUpPercent(float percent)
     {
@@ -25,9 +25,9 @@ public class PushDroneSoccderIntAsBytesMono : MonoBehaviour
     {
         m_gamepad.m_joystickRightX_moveLeftRight = percent;
     }
-    public void SetForwardBackwardPercent(float percent)
+    public void SetBackwardForwardPercent(float percent)
     {
-        m_gamepad.m_joystickRightY_moveForwardBackward = percent;
+        m_gamepad.m_joystickRightY_moveBackwardForward = percent;
     }
     public void SetDroneId20To20(int droneId20To20)
     {
@@ -38,10 +38,10 @@ public class PushDroneSoccderIntAsBytesMono : MonoBehaviour
     {
         DroneSoccerIntUtility.ParseToInteger(
             m_droneId20To20,
-            m_gamepad.m_joystickLeftX_rotatreLeftRight,
+            m_gamepad.m_joystickLeftX_rotateLeftRight,
             m_gamepad.m_joystickLeftY_moveDownUp,
             m_gamepad.m_joystickRightX_moveLeftRight,
-            m_gamepad.m_joystickRightY_moveForwardBackward,
+            m_gamepad.m_joystickRightY_moveBackwardForward,
             out int commandAsInt
             );
         m_lastIntegerPushed = commandAsInt;
@@ -56,8 +56,8 @@ public class PushDroneSoccderIntAsBytesMono : MonoBehaviour
 [System.Serializable]
 public struct DroneGamepad { 
 
-    public float m_joystickLeftX_rotatreLeftRight;
+    public float m_joystickLeftX_rotateLeftRight;
     public float m_joystickLeftY_moveDownUp;
     public float m_joystickRightX_moveLeftRight;
-    public float m_joystickRightY_moveForwardBackward;
+    public float m_joystickRightY_moveBackwardForward;
 }
