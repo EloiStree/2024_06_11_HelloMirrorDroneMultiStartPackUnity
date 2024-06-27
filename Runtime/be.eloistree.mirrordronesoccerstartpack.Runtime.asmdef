@@ -2,8 +2,6 @@
     "name": "be.eloistree.mirrordronesoccerstartpack",
     "rootNamespace": "",
     "references": [
-        "be.eloistree.networkreceiver",
-        "be.eloistree.networksenders",
         "be.eloistree.udpthreadsender",
         "endel.nativewebsocket"
     ],
