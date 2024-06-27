@@ -1554,7 +1554,7 @@ MonoBehaviour:
   - <RSAKeyValue><Modulus>kzdncwcsDqlzzrIiyFoNZrGzuN6rtpbl9IWRtqAjJO/8ETY75+xYuKqTdDr3LfXiJIZez+wb8o/lgi3Tk5CJR4Ai2slfV/Lwu1FlK4FeBJzCk9ST4YYVGGjeavp/aTduySbUM/X+tq2mVu0jKbALo2SOqrad1ZzUriav1U4mCOU=</Modulus><Exponent>AQAB</Exponent><P>uDHMDZNM2IFiR0WwI4euPnwP/JzVlJNaxRV4KxfJToInUsko0ox9XrR5IIPBMQD38A4nmcpMlYj+icAePnFl5Q==</P><Q>zJtGdM9hj5amZM1eab0kI6rYOZZ8/aIGdm2B+2Mai7j59r3/SsYCH9YQunSb8k21ikrqOj3nzx6U0xd57YfnAQ==</Q><DP>oyhZG91SwKU7LO7p608QZYD3mEhEWGt+h/1QiLt1MfnQY2CUrIyNsQokEU0kIAg/l4CyS2QLGppS/ioToDRKkQ==</DP><DQ>JhQ7759s89FA1H/YM2utHyo7pbQZPQb7luzYhRWzqg9aDg7cRWlGmfA4Gst6/oRx5fP9VauRyd1SK1syKP/jAQ==</DQ><InverseQ>YM+y0A8q6BQIA4f4wRrHCupbpDERo50q94u3JlwE6Yg0y5ZejP43ALNOk8EM22Kr9mEZnXCDrs5CKVWqvJf/gw==</InverseQ><D>A2DiHuGrQSriXXv5EGAArrqlRTjW9/m+jT4Deg1ywQZA4qQ7+7aQ0qwXdjNkOMnLxsrOojbo7UggHDyw/lHy1IhQD6iRY9Kr5m2k1MVFTsHJkMaxsJYoLCv+TTiQYf8hkFijzAHM8fdCzBH+qXMRYxNc54VLqceAQX0gWUbPgAE=</D></RSAKeyValue>
   m_tunnels: []
   m_createNewRsaAtStart: 0
-  m_autoJoinCurrentGame: 0
+  m_autoJoinCurrentGame: 1
 --- !u!4 &1261482491
 Transform:
   m_ObjectHideFlags: 0
