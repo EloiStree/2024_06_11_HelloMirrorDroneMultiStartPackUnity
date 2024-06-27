@@ -426,18 +426,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1744697473 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 5619015989343523181, guid: d3282cf14f1f0ba4a9c415420797c8d9,
-    type: 3}
-  m_PrefabInstance: {fileID: 3249415343351796526}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2ea73dd3e158a8448b84059922ce5342, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &3249415343351796526
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -495,36 +483,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4775859244489266389, guid: d3282cf14f1f0ba4a9c415420797c8d9,
-        type: 3}
-      propertyPath: m_onIntegerPushed.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 1744697473}
-    - target: {fileID: 4775859244489266389, guid: d3282cf14f1f0ba4a9c415420797c8d9,
-        type: 3}
-      propertyPath: m_onIntegerPushed.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: PushIntegerLittleEndianIn
-      objectReference: {fileID: 0}
-    - target: {fileID: 4775859244489266389, guid: d3282cf14f1f0ba4a9c415420797c8d9,
-        type: 3}
-      propertyPath: m_onIntegerPushed.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: BytesPushMono_Relay, be.eloistree.mirrordronesoccerstartpack
-      objectReference: {fileID: 0}
-    - target: {fileID: 6904087745491022770, guid: d3282cf14f1f0ba4a9c415420797c8d9,
-        type: 3}
-      propertyPath: m_onIntegerPushed.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 1744697473}
-    - target: {fileID: 6904087745491022770, guid: d3282cf14f1f0ba4a9c415420797c8d9,
-        type: 3}
-      propertyPath: m_onIntegerPushed.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: PushIntegerLittleEndianIn
-      objectReference: {fileID: 0}
-    - target: {fileID: 6904087745491022770, guid: d3282cf14f1f0ba4a9c415420797c8d9,
-        type: 3}
-      propertyPath: m_onIntegerPushed.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: BytesPushMono_Relay, be.eloistree.mirrordronesoccerstartpack
       objectReference: {fileID: 0}
     - target: {fileID: 7584215703378877170, guid: d3282cf14f1f0ba4a9c415420797c8d9,
         type: 3}
