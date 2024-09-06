@@ -1,7 +1,7 @@
 
 {                                                                   
-            "name": "be.eloistree.mirrordronesoccerstartpackEditor",          
-    "references": ["be.eloistree.mirrordronesoccerstartpack"
+            "name": "be.elab.mirrordronesoccerstartpackEditor",          
+    "references": ["be.elab.mirrordronesoccerstartpack"
 ],                                                              
     "optionalUnityReferences": [],                                  
     "includePlatforms": [                                           

@@ -1,8 +1,8 @@
 {
-    "name": "be.eloistree.mirrordronesoccerstartpack",
+    "name": "be.elab.mirrordronesoccerstartpack",
     "rootNamespace": "",
     "references": [
-        "be.eloistree.udpthreadsender",
+        "be.elab.udpthreadsender",
         "endel.nativewebsocket"
     ],
     "includePlatforms": [],
